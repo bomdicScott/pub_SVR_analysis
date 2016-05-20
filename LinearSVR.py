@@ -26,7 +26,7 @@ with open("C:/Users/sean/Desktop/SVR_DATA/edwademd.csv","rb") as data_file:
 
 data,target = Lin_clean_data(data[1:],target[1:],2)
 
-point = 6000
+point = 2000
 X_train = data[:point-1]
 X_test = data[point:point+int(point*0.2)]
 y_train = target[:point-1]

@@ -10,8 +10,8 @@ def draw_pic(x_axis,x_axis_test,y_train,y_test,data_train,data_test,label,figure
 
     sub_pic1.set_xlim(-10, len(x_axis)+5)
     sub_pic2.set_xlim(-10, len(x_axis_test)+5)
-    sub_pic1.set_ylim(-2,30)
-    sub_pic2.set_ylim(-2,30)
+    sub_pic1.set_ylim(-2,15)
+    sub_pic2.set_ylim(-2,15)
 
     sub_pic1.set_ylabel("target")
     sub_pic2.set_ylabel("target")

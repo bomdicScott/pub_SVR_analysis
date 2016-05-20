@@ -49,7 +49,7 @@ for count in range(len(target)):
     if(count < len(target)):
         clean_data(count,data,target)
 
-point = 100
+point = 3000
 X_train = data[:point-1]
 X_test = data[point:point+int(point*0.1)]
 y_train = target[:point-1]
